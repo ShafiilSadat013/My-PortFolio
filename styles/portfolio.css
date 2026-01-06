@@ -1,5 +1,5 @@
 /* body{
-    background-color: bisque;
+    /* background-color: rgb(77, 18, 133); */
 } */
 *{
     margin: 0;
@@ -28,7 +28,7 @@
 
 /* Hire me controlled from here */
 .btn{
-    background-color: rgb(142, 65, 145);
+    background-color: rgb(202, 143, 122);
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
@@ -45,12 +45,19 @@
     max-width: 827px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+    /* background-color: rgb(202, 143, 122); */
+    /* margin-bottom: 20px; */
+    /* margin-top: 30px; */
 }
 .section-heading h2{
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 30px;
+    background-color: rgb(202, 143, 122);
+    display: inline-block;
+    border: 3px solid orangered;
+    padding: 5px 5px 5px 5px;
+    color: whitesmoke;
 }
 .section-heading p{
     font-size: 20px;
@@ -66,10 +73,10 @@
 /* top banner sdt,pfolio,blog,hire from here */
 header{
     background-color: #FFF8F3;
-    background: url("../images/pictwo.png"),#FFF8F3;
-    background-position: bottom right;
+    background: url("../images/pictwo.png"),url("../images/picOne.png"),#FFF8F3;
+    background-position: bottom right,top left;
     background-repeat: no-repeat;
-    background-size: 800px auto;
+    background-size: 800px 800px;
     
     padding-top: 50px;
 }
@@ -118,6 +125,12 @@ nav .menu a{
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
+    color: whitesmoke;
+    background-color: rgb(202, 143, 122);
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 3px solid orangered;
 
 }
 /* Sadat */
@@ -126,6 +139,12 @@ nav .menu a{
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
+    color: whitesmoke;
+    background-color: rgb(202, 143, 122);
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 3px solid orangered;
 }
 /* paragraph here */
 #banner .banner-content p{
@@ -133,6 +152,15 @@ nav .menu a{
     color: #757575;
     line-height: 43px;
     margin-bottom: 30px;
+    color: whitesmoke;
+    background-color: rgb(202, 143, 122);
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: 3px solid orangered;
 
 }
 
@@ -157,6 +185,9 @@ nav .menu a{
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
+    border: 3px solid orangered;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px orangered;
 
 
 }
@@ -201,6 +232,8 @@ nav .menu a{
     display: flex;
     gap: 24px;
 
+    margin-bottom: 100px;
+
 }
 
 .skill-box .skill-card{
@@ -218,15 +251,123 @@ nav .menu a{
     margin-bottom: 30px;
 }
 
+/* heading of skill card */
 .skill-card h3{
     font-size: 25px;
     color: gray;
     margin-bottom: 20px;
 }
-
+/* heading of skill card paragraphs */
 .skill-card p{
     font-size: 20px;
     color:black;
     line-height: 28px;
     margin-bottom: 30px;
+}
+
+
+
+/* resume part */
+#resume{
+    padding-top: 130px;
+}
+
+#resume .resume-container{
+
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;/* education and experience  side by side*/
+    gap: 24px;
+    /* border: 2px solid orangered;
+    padding: 10px; */
+
+}
+
+.resume-container .section-title{
+
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.resume-card{
+    
+    max-width: 511px;
+    margin-right: 47px;
+    border: 5px solid orangered;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px  rgb(202, 143, 122);
+
+
+}
+
+.resume-card  .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* footer part */
+
+/* entire footer */
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* display: flex; */
+    align-items: center;
+    border: 5px solid orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 10px rgb(202, 143, 122);
+    border-radius: 15px;
+
+}
+
+.footer-container{
+    
+    max-width: 662px;
+}
+
+.footer-container h2{
+
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-container p{
+        
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-container .icons a{
+    margin-right: 30px;
+}
+
+.footer-container .icons a img{
+    width: 64px;
+    height: 64px;
 }

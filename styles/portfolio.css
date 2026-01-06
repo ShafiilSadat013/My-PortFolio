@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* shared style */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -15,6 +15,57 @@
   font-variation-settings:
     "wdth" 100; */
 }
+
+.logo h2{
+       font-size: 45px; 
+       font-weight: 900;
+}
+
+.color-orange{
+    color: orangered;
+    
+}
+
+/* Hire me controlled from here */
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* main style */
+/* top banner sdt,pfolio,blog,hire from here */
 header{
-    background-color: #f3d3c0;
+    background-color: #FFF8F3;
+    padding-top: 50px;
+}
+
+nav{
+    width: 71%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+
+nav .menu a{
+
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+
 }

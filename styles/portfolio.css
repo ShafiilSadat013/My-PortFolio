@@ -38,15 +38,36 @@
     cursor: pointer;
 }
 
+/* about section , what i do section */
+
+.section-heading{
+
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+
+
 
 /* main style */
 /* top banner sdt,pfolio,blog,hire from here */
 header{
     background-color: #FFF8F3;
-    background: url("../images/picOne.png");
+    background: url("../images/pictwo.png"),#FFF8F3;
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: 1000px auto;
+    background-size: 800px auto;
     
     padding-top: 50px;
 }
@@ -117,5 +138,49 @@ nav .menu a{
 
     max-width: 585px;
     vertical-align: middle;
+
+}
+
+/* about section */
+
+#about{
+    padding-top: 130px;
+}
+
+/*  */
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+
+
+}
+/* part under about me name,mail etc */
+#about .about-container .about-info{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+/* inner part of name,mail etc */
+.about-info .info-card p{
+
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info .info-card h4{
+
+    font-size: 20px;
+
+}
+
 
 }

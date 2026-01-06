@@ -22,19 +22,20 @@
 }
 
 .color-orange{
-    color: orangered;
+    color: rgb(142, 65, 145);
     
 }
 
 /* Hire me controlled from here */
 .btn{
-    background-color: #FD6E0A;
+    background-color: rgb(142, 65, 145);
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -42,6 +43,11 @@
 /* top banner sdt,pfolio,blog,hire from here */
 header{
     background-color: #FFF8F3;
+    background: url("../images/picOne.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 1000px auto;
+    
     padding-top: 50px;
 }
 
@@ -67,5 +73,49 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+
+}
+
+
+/* Banner part here */
+#banner{
+    /* border: 1px solid red; */
+    margin: 50px 164px 0 164px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+/* Hi i am */
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+/* Sadat */
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+/* paragraph here */
+#banner .banner-content p{
+    font-size: 40px;
+    color: #757575;
+    line-height: 43px;
+    margin-bottom: 30px;
+
+}
+
+#banner .banner-image img{
+
+    max-width: 585px;
+    vertical-align: middle;
 
 }

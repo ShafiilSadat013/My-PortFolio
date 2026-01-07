@@ -19,10 +19,12 @@ body{
 .logo h2{
        font-size: 45px; 
        font-weight: 900;
+       color: whitesmoke;
+       background-color: rgb(202, 143, 122);
 }
 
 .color-orange{
-    color: rgb(142, 65, 145);
+    color: whitesmoke;
     
 }
 

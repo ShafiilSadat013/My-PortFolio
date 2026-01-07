@@ -1,6 +1,6 @@
-/* body{
-    /* background-color: rgb(77, 18, 133); */
-} */
+body{
+    background-color: bisque;
+}
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@
 /* Hire me controlled from here */
 .btn{
     background-color: rgb(202, 143, 122);
-    border: none;
+    border: 3px solid orangered;
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
@@ -72,8 +72,8 @@
 /* main style */
 /* top banner sdt,pfolio,blog,hire from here */
 header{
-    background-color: #FFF8F3;
-    background: url("../images/pictwo.png"),url("../images/picOne.png"),#FFF8F3;
+    background-color: bisque;
+    background: url("../images/pictwo.png"),url("../images/picOne.png"),bisque;
     background-position: bottom right,top left;
     background-repeat: no-repeat;
     background-size: 800px 800px;
@@ -183,7 +183,7 @@ nav .menu a{
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    background-color: #FFF8F3;
+    background-color: bisque;
     padding: 131px 156px;
     border: 3px solid orangered;
     border-radius: 15px;
@@ -195,8 +195,8 @@ nav .menu a{
 #about .about-container .about-info{
 
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: center;
+    gap: 30px;
 
 }
 
@@ -204,14 +204,27 @@ nav .menu a{
 .about-info .info-card p{
 
     font-size: 20px;
+    font-weight: 200;
     margin-bottom: 30px;
     line-height: 30px;
-    color: #757575;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.about-info .info-card{
+
+    border: 2px solid orangered;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px orangered;
+    background-color: rgb(202, 143, 122);
+
 }
 
 .about-info .info-card h4{
 
-    font-size: 20px;
+    font-size: 30;
+    color: whitesmoke;
+
 
 }
 
@@ -321,7 +334,7 @@ nav .menu a{
 
 footer{
     margin-top: 130px;
-    background-color: #FFF8F3;
+    background-color: bisque;
     padding: 130px 130px;
     justify-content: center;
     align-items: center;
